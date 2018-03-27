@@ -1,0 +1,453 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:components
+LIBS:is31fl3731
+LIBS:NumPad-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED_ALT D21
+U 1 1 5AB7A354
+P 2200 1650
+F 0 "D21" H 2200 1750 50  0000 C CNN
+F 1 "L_+" H 2200 1550 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2200 1650 50  0001 C CNN
+F 3 "" H 2200 1650 50  0001 C CNN
+	1    2200 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D26
+U 1 1 5AB7A4EC
+P 2600 1650
+F 0 "D26" H 2600 1750 50  0000 C CNN
+F 1 "L_-" H 2600 1550 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2600 1650 50  0001 C CNN
+F 3 "" H 2600 1650 50  0001 C CNN
+	1    2600 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D31
+U 1 1 5AB7A52F
+P 3000 1650
+F 0 "D31" H 3000 1750 50  0000 C CNN
+F 1 "L_*" H 3000 1550 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3000 1650 50  0001 C CNN
+F 3 "" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D36
+U 1 1 5AB7A5E3
+P 3400 1650
+F 0 "D36" H 3400 1750 50  0000 C CNN
+F 1 "L_/" H 3400 1550 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3400 1650 50  0001 C CNN
+F 3 "" H 3400 1650 50  0001 C CNN
+	1    3400 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D22
+U 1 1 5AB7A8FB
+P 2200 2250
+F 0 "D22" H 2200 2350 50  0000 C CNN
+F 1 "L_7" H 2200 2150 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2200 2250 50  0001 C CNN
+F 3 "" H 2200 2250 50  0001 C CNN
+	1    2200 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D27
+U 1 1 5AB7A902
+P 2600 2250
+F 0 "D27" H 2600 2350 50  0000 C CNN
+F 1 "L_8" H 2600 2150 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2600 2250 50  0001 C CNN
+F 3 "" H 2600 2250 50  0001 C CNN
+	1    2600 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D32
+U 1 1 5AB7A909
+P 3000 2250
+F 0 "D32" H 3000 2350 50  0000 C CNN
+F 1 "L_9" H 3000 2150 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3000 2250 50  0001 C CNN
+F 3 "" H 3000 2250 50  0001 C CNN
+	1    3000 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D37
+U 1 1 5AB7A910
+P 3400 2250
+F 0 "D37" H 3400 2350 50  0000 C CNN
+F 1 "L_FN2" H 3400 2150 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3400 2250 50  0001 C CNN
+F 3 "" H 3400 2250 50  0001 C CNN
+	1    3400 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D23
+U 1 1 5AB7AC13
+P 2200 2850
+F 0 "D23" H 2200 2950 50  0000 C CNN
+F 1 "L_4" H 2200 2750 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2200 2850 50  0001 C CNN
+F 3 "" H 2200 2850 50  0001 C CNN
+	1    2200 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D28
+U 1 1 5AB7AC1A
+P 2600 2850
+F 0 "D28" H 2600 2950 50  0000 C CNN
+F 1 "L_5" H 2600 2750 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2600 2850 50  0001 C CNN
+F 3 "" H 2600 2850 50  0001 C CNN
+	1    2600 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D33
+U 1 1 5AB7AC21
+P 3000 2850
+F 0 "D33" H 3000 2950 50  0000 C CNN
+F 1 "L_6" H 3000 2750 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3000 2850 50  0001 C CNN
+F 3 "" H 3000 2850 50  0001 C CNN
+	1    3000 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D38
+U 1 1 5AB7AC28
+P 3400 2850
+F 0 "D38" H 3400 2950 50  0000 C CNN
+F 1 "L_FN1" H 3400 2750 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3400 2850 50  0001 C CNN
+F 3 "" H 3400 2850 50  0001 C CNN
+	1    3400 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D24
+U 1 1 5AB7AE33
+P 2200 3450
+F 0 "D24" H 2200 3550 50  0000 C CNN
+F 1 "L_1" H 2200 3350 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2200 3450 50  0001 C CNN
+F 3 "" H 2200 3450 50  0001 C CNN
+	1    2200 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D34
+U 1 1 5AB7AE41
+P 3000 3450
+F 0 "D34" H 3000 3550 50  0000 C CNN
+F 1 "L_3" H 3000 3350 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3000 3450 50  0001 C CNN
+F 3 "" H 3000 3450 50  0001 C CNN
+	1    3000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D39
+U 1 1 5AB7AE48
+P 3400 3450
+F 0 "D39" H 3400 3550 50  0000 C CNN
+F 1 "L_=" H 3400 3350 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3400 3450 50  0001 C CNN
+F 3 "" H 3400 3450 50  0001 C CNN
+	1    3400 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D25
+U 1 1 5AB7B07B
+P 2200 4050
+F 0 "D25" H 2200 4150 50  0000 C CNN
+F 1 "L_0" H 2200 3950 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2200 4050 50  0001 C CNN
+F 3 "" H 2200 4050 50  0001 C CNN
+	1    2200 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D30
+U 1 1 5AB7B082
+P 2600 4050
+F 0 "D30" H 2600 4150 50  0000 C CNN
+F 1 "L_," H 2600 3950 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2600 4050 50  0001 C CNN
+F 3 "" H 2600 4050 50  0001 C CNN
+	1    2600 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D35
+U 1 1 5AB7B089
+P 3000 4050
+F 0 "D35" H 3000 4150 50  0000 C CNN
+F 1 "L_." H 3000 3950 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3000 4050 50  0001 C CNN
+F 3 "" H 3000 4050 50  0001 C CNN
+	1    3000 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D40
+U 1 1 5AB7B090
+P 3400 4050
+F 0 "D40" H 3400 4150 50  0000 C CNN
+F 1 "L_FN0" H 3400 3950 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 3400 4050 50  0001 C CNN
+F 3 "" H 3400 4050 50  0001 C CNN
+	1    3400 4050
+	0    1    1    0   
+$EndComp
+Text HLabel 1650 1400 0    60   BiDi ~ 0
+CA1
+Text HLabel 1650 2000 0    60   BiDi ~ 0
+CA2
+Text HLabel 1650 2600 0    60   BiDi ~ 0
+CA3
+Text HLabel 1650 3200 0    60   BiDi ~ 0
+CA4
+Text HLabel 1650 3800 0    60   BiDi ~ 0
+CA5
+Wire Wire Line
+	2200 1500 2200 1400
+Connection ~ 2200 1400
+Wire Wire Line
+	2600 1500 2600 1400
+Connection ~ 2600 1400
+Wire Wire Line
+	3000 1500 3000 1400
+Connection ~ 3000 1400
+Wire Wire Line
+	3400 1500 3400 1400
+Wire Wire Line
+	2400 1900 2200 1900
+Wire Wire Line
+	2200 1900 2200 1800
+Connection ~ 2400 2000
+Wire Wire Line
+	2200 2100 2200 2000
+Connection ~ 2200 2000
+Wire Wire Line
+	2600 2100 2600 2000
+Connection ~ 2600 2000
+Wire Wire Line
+	3000 2100 3000 2000
+Connection ~ 3000 2000
+Wire Wire Line
+	3400 2100 3400 2000
+Connection ~ 1950 1400
+Wire Wire Line
+	2200 2500 1950 2500
+Connection ~ 1950 2500
+Wire Wire Line
+	2200 2500 2200 2400
+Wire Wire Line
+	2200 2700 2200 2600
+Connection ~ 2200 2600
+Wire Wire Line
+	2600 2700 2600 2600
+Connection ~ 2600 2600
+Wire Wire Line
+	3000 2700 3000 2600
+Connection ~ 3000 2600
+Wire Wire Line
+	3400 2700 3400 2600
+Wire Wire Line
+	1950 3100 2200 3100
+Wire Wire Line
+	2200 3100 2200 3000
+Connection ~ 1950 3100
+Wire Wire Line
+	1950 3700 2200 3700
+Wire Wire Line
+	2200 3700 2200 3600
+Connection ~ 1950 3700
+Wire Wire Line
+	1950 4300 2200 4300
+Wire Wire Line
+	2200 4300 2200 4200
+Wire Wire Line
+	2400 3100 2600 3100
+Wire Wire Line
+	2600 3100 2600 3000
+Connection ~ 2400 3100
+Wire Wire Line
+	2400 4300 2600 4300
+Wire Wire Line
+	2600 4300 2600 4200
+Wire Wire Line
+	2600 3900 2600 3800
+Connection ~ 2600 3800
+Wire Wire Line
+	2600 1800 2600 1900
+Wire Wire Line
+	2600 1900 2800 1900
+Connection ~ 2800 2600
+Wire Wire Line
+	2600 2400 2600 2500
+Wire Wire Line
+	2600 2500 2800 2500
+Connection ~ 2800 2500
+Wire Wire Line
+	3000 1800 3000 1900
+Wire Wire Line
+	3000 1900 3200 1900
+Wire Wire Line
+	3200 1900 3200 4300
+Wire Wire Line
+	3000 3000 3000 3100
+Wire Wire Line
+	3000 3100 3200 3100
+Connection ~ 3200 3100
+Connection ~ 3200 3200
+Wire Wire Line
+	3400 1800 3400 1900
+Wire Wire Line
+	3400 1900 3600 1900
+Wire Wire Line
+	2200 3300 2200 3200
+Connection ~ 2200 3200
+Wire Wire Line
+	3000 3300 3000 3200
+Connection ~ 3000 3200
+Wire Wire Line
+	3400 3300 3400 3200
+Wire Wire Line
+	2200 3900 2200 3800
+Connection ~ 2200 3800
+Wire Wire Line
+	3000 3900 3000 3800
+Connection ~ 3000 3800
+Wire Wire Line
+	3400 3900 3400 3800
+Wire Wire Line
+	2800 3700 3000 3700
+Wire Wire Line
+	3000 3700 3000 3600
+Connection ~ 2800 3700
+Wire Wire Line
+	2800 4300 3000 4300
+Wire Wire Line
+	3000 4300 3000 4200
+Wire Wire Line
+	3000 2400 3000 2500
+Wire Wire Line
+	3000 2500 3200 2500
+Connection ~ 3200 2500
+Wire Wire Line
+	3400 2400 3400 2500
+Wire Wire Line
+	3400 2500 3600 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3400 3600 3400 3700
+Wire Wire Line
+	3400 3700 3600 3700
+Connection ~ 3600 3700
+Wire Wire Line
+	3200 4300 3400 4300
+Wire Wire Line
+	3400 4300 3400 4200
+Wire Wire Line
+	3400 3000 3400 3100
+Wire Wire Line
+	3400 3100 3600 3100
+Connection ~ 3600 3100
+$Comp
+L LED_ALT D29
+U 1 1 5ABB0745
+P 2600 3450
+F 0 "D29" H 2600 3550 50  0000 C CNN
+F 1 "L_2" H 2600 3350 50  0000 C CNN
+F 2 "footprints:LED_3MM" H 2600 3450 50  0001 C CNN
+F 3 "" H 2600 3450 50  0001 C CNN
+	1    2600 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 3300 2600 3200
+Connection ~ 2600 3200
+Wire Wire Line
+	2600 3600 2600 3700
+Wire Wire Line
+	2600 3700 2400 3700
+Connection ~ 2400 3700
+Wire Wire Line
+	3400 1400 1650 1400
+Wire Wire Line
+	3400 2000 1650 2000
+Wire Wire Line
+	3400 2600 1650 2600
+Wire Wire Line
+	3400 3200 1650 3200
+Wire Wire Line
+	1650 3800 3600 3800
+Wire Wire Line
+	2400 1900 2400 4300
+Wire Wire Line
+	2800 1900 2800 4300
+Wire Wire Line
+	3600 3800 3600 1900
+Connection ~ 3400 3800
+Wire Wire Line
+	1950 1400 1950 4300
+$EndSCHEMATC

@@ -1,0 +1,179 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:components
+LIBS:is31fl3731
+LIBS:NumPad-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1300 1250 1500 5250
+U 5ABAA181
+F0 "Controller" 60
+F1 "controller.sch" 60
+F2 "ROW1" B R 2800 1500 60 
+F3 "ROW2" B R 2800 1600 60 
+F4 "ROW3" B R 2800 1700 60 
+F5 "ROW4" B R 2800 1800 60 
+F6 "ROW5" B R 2800 2600 60 
+F7 "COL1" B R 2800 2050 60 
+F8 "COL2" B R 2800 2150 60 
+F9 "COL3" B R 2800 2250 60 
+F10 "COL4" B R 2800 2750 60 
+F11 "COL5" B R 2800 2850 60 
+F12 "COL6" B R 2800 2950 60 
+F13 "COL7" B R 2800 3050 60 
+F14 "COL8" B R 2800 3150 60 
+F15 "COL9" B R 2800 3250 60 
+F16 "COL10" B R 2800 3350 60 
+F17 "COL11" B R 2800 3450 60 
+F18 "COL12" B R 2800 3550 60 
+F19 "COL13" B R 2800 3650 60 
+F20 "COL14" B R 2800 3750 60 
+F21 "COL0" B R 2800 1950 60 
+F22 "ROW0" B R 2800 1400 60 
+F23 "COL15" B R 2800 3850 60 
+F24 "CA1" B R 2800 4200 60 
+F25 "CA2" B R 2800 4300 60 
+F26 "CA3" B R 2800 4400 60 
+F27 "CA4" B R 2800 4500 60 
+F28 "CA5" B R 2800 4600 60 
+F29 "CA6" B R 2800 4700 60 
+F30 "CA7" B R 2800 4800 60 
+F31 "CA8" B R 2800 4900 60 
+F32 "CA9" B R 2800 5000 60 
+F33 "CB1" B R 2800 5200 60 
+F34 "CB2" B R 2800 5300 60 
+F35 "CB3" B R 2800 5400 60 
+F36 "CB4" B R 2800 5500 60 
+F37 "CB5" B R 2800 5600 60 
+F38 "CB6" B R 2800 5700 60 
+F39 "CB7" B R 2800 5800 60 
+F40 "CB8" B R 2800 5900 60 
+F41 "CB9" B R 2800 6000 60 
+$EndSheet
+$Sheet
+S 3000 1250 1250 1150
+U 5ABAA2C6
+F0 "Switch Matrix" 60
+F1 "switch_matrix.sch" 60
+F2 "ROW0" B L 3000 1400 60 
+F3 "ROW1" B L 3000 1500 60 
+F4 "ROW2" B L 3000 1600 60 
+F5 "ROW3" B L 3000 1700 60 
+F6 "ROW4" B L 3000 1800 60 
+F7 "COL0" B L 3000 1950 60 
+F8 "COL1" B L 3000 2050 60 
+F9 "COL2" B L 3000 2150 60 
+F10 "COL3" B L 3000 2250 60 
+$EndSheet
+$Sheet
+S 3000 4050 1100 750 
+U 5ABAA77D
+F0 "LED Matrix" 60
+F1 "led_matrix.sch" 60
+F2 "CA1" B L 3000 4200 60 
+F3 "CA2" B L 3000 4300 60 
+F4 "CA3" B L 3000 4400 60 
+F5 "CA4" B L 3000 4500 60 
+F6 "CA5" B L 3000 4600 60 
+$EndSheet
+Wire Wire Line
+	2800 1400 3000 1400
+Wire Wire Line
+	2800 1500 3000 1500
+Wire Wire Line
+	2800 1600 3000 1600
+Wire Wire Line
+	2800 1700 3000 1700
+Wire Wire Line
+	2800 1800 3000 1800
+Wire Wire Line
+	2800 1950 3000 1950
+Wire Wire Line
+	2800 2050 3000 2050
+Wire Wire Line
+	2800 2150 3000 2150
+Wire Wire Line
+	2800 2250 3000 2250
+Wire Wire Line
+	2800 4200 3000 4200
+Wire Wire Line
+	2800 4300 3000 4300
+Wire Wire Line
+	2800 4400 3000 4400
+Wire Wire Line
+	2800 4500 3000 4500
+Wire Wire Line
+	2800 4600 3000 4600
+NoConn ~ 2800 2600
+NoConn ~ 2800 2750
+NoConn ~ 2800 2850
+NoConn ~ 2800 2950
+NoConn ~ 2800 3050
+NoConn ~ 2800 3150
+NoConn ~ 2800 3250
+NoConn ~ 2800 3350
+NoConn ~ 2800 3450
+NoConn ~ 2800 3550
+NoConn ~ 2800 3650
+NoConn ~ 2800 3750
+NoConn ~ 2800 3850
+NoConn ~ 2800 4700
+NoConn ~ 2800 4800
+NoConn ~ 2800 4900
+NoConn ~ 2800 5000
+NoConn ~ 2800 5200
+NoConn ~ 2800 5300
+NoConn ~ 2800 5400
+NoConn ~ 2800 5500
+NoConn ~ 2800 5600
+NoConn ~ 2800 5700
+NoConn ~ 2800 5800
+NoConn ~ 2800 5900
+NoConn ~ 2800 6000
+Text Notes 3200 3250 0    60   ~ 0
+Check which Switch protection diodes to use
+$EndSCHEMATC
