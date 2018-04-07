@@ -1029,12 +1029,12 @@ AIN
 $Comp
 L TEST TP1
 U 1 1 5ABC0ACE
-P 6550 2750
-F 0 "TP1" H 6550 3050 50  0000 C BNN
-F 1 "TEST" H 6550 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6550 2750 50  0001 C CNN
-F 3 "" H 6550 2750 50  0001 C CNN
-	1    6550 2750
+P 6550 2800
+F 0 "TP1" H 6550 3100 50  0000 C BNN
+F 1 "TEST" H 6550 3050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6550 2800 50  0001 C CNN
+F 3 "" H 6550 2800 50  0001 C CNN
+	1    6550 2800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1099,4 +1099,7 @@ Wire Wire Line
 	5400 800  5400 750 
 Text Notes 650  600  0    60   ~ 0
 Micro USB: 10118194-0001LF (Amphenol), Digikey: 609-4618-1-ND 
+Wire Wire Line
+	6550 2800 6550 2750
+Connection ~ 6550 2750
 $EndSCHEMATC
