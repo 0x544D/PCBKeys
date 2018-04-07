@@ -821,7 +821,7 @@ U 1 1 5AB7F992
 P 3200 5100
 F 0 "J2" H 3250 5300 50  0000 C CNN
 F 1 "ISP" H 3250 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 3200 5100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 3200 5100 50  0001 C CNN
 F 3 "" H 3200 5100 50  0001 C CNN
 	1    3200 5100
 	1    0    0    -1  
@@ -1102,4 +1102,8 @@ Micro USB: 10118194-0001LF (Amphenol), Digikey: 609-4618-1-ND
 Wire Wire Line
 	6550 2800 6550 2750
 Connection ~ 6550 2750
+Text Label 1250 1200 0    60   ~ 0
+USB_D+
+Text Label 1250 1300 0    60   ~ 0
+USB_D-
 $EndSCHEMATC
